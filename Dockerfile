@@ -4,7 +4,7 @@ RUN apt-get update && apt-get install -y \
   default-jre \
   default-jdk \
   git \
-  maven 
+  maven
 
 RUN mvn -version
 RUN git clone https://github.com/bongadub/Rest-Assured.git
@@ -12,6 +12,4 @@ CMD ls
 CMD ls
 RUN cd Rest-Assured && mvn test
 
-ADD run.sh /run.sh
-RUN chmod +x /*.sh
-CMD ["/run.sh"]
+CMD exec /bin/bash -c "trap : TERM INT; sleep infinity & wait"
