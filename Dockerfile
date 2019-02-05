@@ -7,7 +7,7 @@ RUN apt-get update && apt-get install -y \
   maven 
 
 RUN mvn -version
-RUN git clone https://github.com/Devops-POC/Rest-Assured.git
+RUN git clone https://github.com/bongadub/Rest-Assured.git
 CMD ls
 CMD ls
 RUN cd Rest-Assured && mvn test
