@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="5.01" tests="3" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="5.027" tests="3" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="gnome"/>
     <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
@@ -17,7 +17,7 @@
     <property name="user.country" value="ZA"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="/usr/lib/jvm/java-8-oracle/jre/lib/amd64"/>
-    <property name="sun.java.command" value="/home/kineticskunk/Rest-Assured/target/surefire/surefirebooter2064023807268877787.jar /home/kineticskunk/Rest-Assured/target/surefire 2019-02-05T09-01-35_023-jvmRun1 surefire131709514631068678tmp surefire_07992420748052869664tmp"/>
+    <property name="sun.java.command" value="/home/kineticskunk/Rest-Assured/target/surefire/surefirebooter5298810763940842743.jar /home/kineticskunk/Rest-Assured/target/surefire 2019-02-06T09-46-40_552-jvmRun1 surefire8860779118134748582tmp surefire_08875313317221962816tmp"/>
     <property name="surefire.test.class.path" value="/home/kineticskunk/Rest-Assured/target/test-classes:/home/kineticskunk/Rest-Assured/target/classes:/home/kineticskunk/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/kineticskunk/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/kineticskunk/.m2/repository/io/rest-assured/rest-assured/3.0.2/rest-assured-3.0.2.jar:/home/kineticskunk/.m2/repository/org/codehaus/groovy/groovy/2.4.6/groovy-2.4.6.jar:/home/kineticskunk/.m2/repository/org/codehaus/groovy/groovy-xml/2.4.6/groovy-xml-2.4.6.jar:/home/kineticskunk/.m2/repository/org/apache/httpcomponents/httpclient/4.5.2/httpclient-4.5.2.jar:/home/kineticskunk/.m2/repository/org/apache/httpcomponents/httpcore/4.4.4/httpcore-4.4.4.jar:/home/kineticskunk/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/home/kineticskunk/.m2/repository/commons-codec/commons-codec/1.9/commons-codec-1.9.jar:/home/kineticskunk/.m2/repository/org/apache/httpcomponents/httpmime/4.5.1/httpmime-4.5.1.jar:/home/kineticskunk/.m2/repository/org/hamcrest/hamcrest-library/1.3/hamcrest-library-1.3.jar:/home/kineticskunk/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/home/kineticskunk/.m2/repository/io/rest-assured/json-path/3.0.2/json-path-3.0.2.jar:/home/kineticskunk/.m2/repository/org/codehaus/groovy/groovy-json/2.4.6/groovy-json-2.4.6.jar:/home/kineticskunk/.m2/repository/io/rest-assured/rest-assured-common/3.0.2/rest-assured-common-3.0.2.jar:/home/kineticskunk/.m2/repository/io/rest-assured/xml-path/3.0.2/xml-path-3.0.2.jar:/home/kineticskunk/.m2/repository/org/apache/commons/commons-lang3/3.4/commons-lang3-3.4.jar:/home/kineticskunk/.m2/repository/org/hamcrest/hamcrest-all/1.3/hamcrest-all-1.3.jar:/home/kineticskunk/.m2/repository/org/testng/testng/6.8/testng-6.8.jar:/home/kineticskunk/.m2/repository/org/beanshell/bsh/2.0b4/bsh-2.0b4.jar:/home/kineticskunk/.m2/repository/com/beust/jcommander/1.27/jcommander-1.27.jar:/home/kineticskunk/.m2/repository/org/yaml/snakeyaml/1.6/snakeyaml-1.6.jar:/home/kineticskunk/.m2/repository/org/apache/maven/surefire/surefire-testng-utils/2.20.1/surefire-testng-utils-2.20.1.jar:/home/kineticskunk/.m2/repository/org/apache/maven/surefire/surefire-grouper/2.20.1/surefire-grouper-2.20.1.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="/home/kineticskunk"/>
@@ -30,7 +30,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="/home/kineticskunk/Rest-Assured/target/surefire/surefirebooter2064023807268877787.jar"/>
+    <property name="surefire.real.class.path" value="/home/kineticskunk/Rest-Assured/target/surefire/surefirebooter5298810763940842743.jar"/>
     <property name="sun.boot.class.path" value="/usr/lib/jvm/java-8-oracle/jre/lib/resources.jar:/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar:/usr/lib/jvm/java-8-oracle/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jsse.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jce.jar:/usr/lib/jvm/java-8-oracle/jre/lib/charsets.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jfr.jar:/usr/lib/jvm/java-8-oracle/jre/classes"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="1.8.0_201-b09"/>
@@ -58,7 +58,7 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="52.0"/>
   </properties>
-  <testcase name="testResponseergast" classname="getRequest.GetData" time="2.586"/>
-  <testcase name="test_NumberOfCircuits_ShouldBe20_Parameterized" classname="getRequest.GetData" time="1.109"/>
-  <testcase name="test_ScenarioRetrieveFirstCircuitFor2017SeasonAndGetCountry_ShouldBeAustralia" classname="getRequest.GetData" time="0.829"/>
+  <testcase name="testResponseergast" classname="getRequest.GetData" time="2.434"/>
+  <testcase name="test_NumberOfCircuits_ShouldBe20_Parameterized" classname="getRequest.GetData" time="1.323"/>
+  <testcase name="test_ScenarioRetrieveFirstCircuitFor2017SeasonAndGetCountry_ShouldBeAustralia" classname="getRequest.GetData" time="0.847"/>
 </testsuite>

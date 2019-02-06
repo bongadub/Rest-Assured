@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="TestAll" duration-ms="4542" started-at="2019-02-05T07:01:36Z" finished-at="2019-02-05T07:01:40Z">
+  <suite name="TestAll" duration-ms="4620" started-at="2019-02-06T07:46:41Z" finished-at="2019-02-06T07:46:46Z">
     <groups>
     </groups>
-    <test name="order" duration-ms="4542" started-at="2019-02-05T07:01:36Z" finished-at="2019-02-05T07:01:40Z">
+    <test name="order" duration-ms="4620" started-at="2019-02-06T07:46:41Z" finished-at="2019-02-06T07:46:46Z">
       <class name="getRequest.GetData">
-        <test-method status="PASS" signature="testResponseergast()[pri:0, instance:getRequest.GetData@3b6eb2ec]" name="testResponseergast" duration-ms="2587" started-at="2019-02-05T09:01:36Z" finished-at="2019-02-05T09:01:38Z">
+        <test-method status="PASS" signature="testResponseergast()[pri:0, instance:getRequest.GetData@1e643faf]" name="testResponseergast" duration-ms="2434" started-at="2019-02-06T09:46:41Z" finished-at="2019-02-06T09:46:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testResponseergast -->
-        <test-method status="PASS" signature="test_NumberOfCircuits_ShouldBe20_Parameterized()[pri:0, instance:getRequest.GetData@3b6eb2ec]" name="test_NumberOfCircuits_ShouldBe20_Parameterized" duration-ms="1111" started-at="2019-02-05T09:01:38Z" finished-at="2019-02-05T09:01:39Z">
+        <test-method status="PASS" signature="test_NumberOfCircuits_ShouldBe20_Parameterized()[pri:0, instance:getRequest.GetData@1e643faf]" name="test_NumberOfCircuits_ShouldBe20_Parameterized" duration-ms="1325" started-at="2019-02-06T09:46:44Z" finished-at="2019-02-06T09:46:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_NumberOfCircuits_ShouldBe20_Parameterized -->
-        <test-method status="PASS" signature="test_ScenarioRetrieveFirstCircuitFor2017SeasonAndGetCountry_ShouldBeAustralia()[pri:0, instance:getRequest.GetData@3b6eb2ec]" name="test_ScenarioRetrieveFirstCircuitFor2017SeasonAndGetCountry_ShouldBeAustralia" duration-ms="829" started-at="2019-02-05T09:01:39Z" finished-at="2019-02-05T09:01:40Z">
+        <test-method status="PASS" signature="test_ScenarioRetrieveFirstCircuitFor2017SeasonAndGetCountry_ShouldBeAustralia()[pri:0, instance:getRequest.GetData@1e643faf]" name="test_ScenarioRetrieveFirstCircuitFor2017SeasonAndGetCountry_ShouldBeAustralia" duration-ms="848" started-at="2019-02-06T09:46:45Z" finished-at="2019-02-06T09:46:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_ScenarioRetrieveFirstCircuitFor2017SeasonAndGetCountry_ShouldBeAustralia -->

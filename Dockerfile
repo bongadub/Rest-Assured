@@ -10,5 +10,8 @@ RUN mvn -version
 RUN git clone https://github.com/bongadub/Rest-Assured.git
 CMD ls
 CMD ls
+
 RUN cd Rest-Assured && mvn test
+ADD crash.sh /
+CMD crash.sh
 
