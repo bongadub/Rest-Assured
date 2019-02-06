@@ -12,4 +12,6 @@ CMD ls
 CMD ls
 
 RUN cd Rest-Assured && mvn test
-CMD exec /bin/sh -c "trap : TERM INT; (while true; do sleep 1000; done) & wait"
+ADD run.sh /run.sh
+RUN chmod +x /*.sh
+CMD ["/run.sh"]
