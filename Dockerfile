@@ -12,4 +12,3 @@ CMD ls
 CMD ls
 RUN cd Rest-Assured && mvn test
 
-CMD exec /bin/bash -c "trap : TERM INT; sleep infinity & wait"
