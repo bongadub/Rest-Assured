@@ -11,7 +11,7 @@ RUN git clone https://github.com/bongadub/Rest-Assured.git
 CMD ls
 CMD ls
 
-RUN cd Rest-Assured && mvn test, -c chmod +x run.sh,
-#ADD run.sh /run.sh
-RUN chmod +x /*.sh
+RUN cd Rest-Assured && mvn test
+ADD run.sh /run.sh
+RUN chmod +x /run.sh
 CMD ["/run.sh"]

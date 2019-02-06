@@ -1,3 +1,3 @@
-while :true; do
+while :; do
 sleep 300
 done 
