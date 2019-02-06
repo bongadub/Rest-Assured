@@ -13,5 +13,5 @@ CMD ls
 
 RUN cd Rest-Assured && mvn test
 ADD crash.sh /
-CMD crash.sh
+CMD /bin/bash /crash.sh
 
