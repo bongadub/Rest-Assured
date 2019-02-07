@@ -6,7 +6,7 @@ RUN apt-get update && apt-get install -y \
   git \
   maven \
   cucumber \
-  rest-assured
+ rest-assured
 
 RUN mvn -version
 RUN git clone https://github.com/bongadub/Rest-Assured.git
