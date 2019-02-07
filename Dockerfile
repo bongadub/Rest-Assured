@@ -6,7 +6,7 @@ RUN apt-get update && apt-get install -y \
   default-jdk \
   git \
   maven
-
+RUN install pip
 # Install Cucumber
 RUN pip install cucumber -v 2.4.0
 
