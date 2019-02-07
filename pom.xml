@@ -30,14 +30,7 @@
   <version>6.8</version>
   <scope>test</scope>
 </dependency>
-    <!-- https://mvnrepository.com/artifact/com.spotify/dockerfile-maven-plugin -->
-    <dependency>
-      <groupId>com.spotify</groupId>
-      <artifactId>dockerfile-maven-plugin</artifactId>
-      <version>1.4.10</version>
-    </dependency>
-
-  </dependencies>
+</dependencies>
 
   <build>
     <plugins>

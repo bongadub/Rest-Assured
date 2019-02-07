@@ -1,4 +1,5 @@
 FROM docker.io/openshift/jenkins-agent-maven-35-centos7:v3.11
+USER root
 RUN apt-get update
 RUN apt-get update && apt-get install -y \
   default-jre \
@@ -6,6 +7,17 @@ RUN apt-get update && apt-get install -y \
   git \
   maven
 
+# Install Cucumber
+RUN gem install cucumber -v 2.4.0
+
+# Install Rest-Assured
+RUN yum -y groupinstall 'Development Tools' \
+    && gem install rest-assured \
+    && yum clean -y all
+
+#Get Certs
+ADD containers/cicd/certificates/pem/ /etc/pki/ca-trust/source/anchors/
+RUN ls /etc/pki/ca-trust/source/anchors/
 RUN mvn -version
 RUN git clone https://github.com/bongadub/Rest-Assured.git
 CMD ls
