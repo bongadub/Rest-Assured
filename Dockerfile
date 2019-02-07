@@ -1,5 +1,5 @@
-FROM docker.io/openshift/jenkins-agent-maven-35-centos7:v3.11
-
+FROM ubuntu:16.04
+USER root
 RUN apt-get update
 RUN apt-get update && apt-get install -y \
   default-jre \
@@ -24,3 +24,6 @@ CMD ls
 CMD ls
 
 RUN cd Rest-Assured && mvn test
+ADD run.sh /run.sh
+RUN chmod +x /run.sh
+CMD ["/run.sh"]
