@@ -13,4 +13,4 @@ CMD ls
 CMD ls
 EXPOSE 8080
 RUN cd Rest-Assured && mvn test
-
+CMD ["mvn"] 
