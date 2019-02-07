@@ -5,14 +5,14 @@ RUN apt-get update && apt-get install -y \
   default-jre \
   default-jdk \
   git \
-  maven
-RUN install pip
+  maven\gem
+
 # Install Cucumber
-RUN pip install cucumber -v 2.4.0
+RUN gem install cucumber -v 2.4.0
 
 # Install Rest-Assured
-RUN pip -y groupinstall 'Development Tools' \
-    && pip install rest-assured \
+RUN yum -y groupinstall 'Development Tools' \
+    && gem install rest-assured \
     && yum clean -y all
 
 #Get Certs
