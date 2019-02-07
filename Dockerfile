@@ -8,11 +8,11 @@ RUN apt-get update && apt-get install -y \
   maven
 
 # Install Cucumber
-RUN gem install cucumber -v 2.4.0
+RUN pip install cucumber -v 2.4.0
 
 # Install Rest-Assured
-RUN yum -y groupinstall 'Development Tools' \
-    && gem install rest-assured \
+RUN pip -y groupinstall 'Development Tools' \
+    && pip install rest-assured \
     && yum clean -y all
 
 #Get Certs
