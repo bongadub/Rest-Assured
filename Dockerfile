@@ -1,4 +1,4 @@
-FROM ubuntu:16.04
+FROM docker.io/openshift/jenkins-agent-maven-35-centos7:v3.11
 RUN apt-get update
 RUN apt-get update && apt-get install -y \
   default-jre \
