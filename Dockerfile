@@ -5,7 +5,8 @@ RUN apt-get update && apt-get install -y \
   default-jre \
   default-jdk \
   git \
-  maven\gem
+  maven \
+  gem
 
 # Install Cucumber
 RUN gem install cucumber -v 2.4.0
