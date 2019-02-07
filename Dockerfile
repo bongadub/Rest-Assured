@@ -13,3 +13,5 @@ CMD ls
 CMD ls
 
 RUN cd Rest-Assured && mvn test
+EXPOSE 8080
+CMD ["java -jar rest-assured"] 
