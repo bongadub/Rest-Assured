@@ -4,6 +4,8 @@ Dockerfile in the repository does all the server setup over ubuntu image and ins
 # Testing Pull Request
 
 Step 1:
+Build:
+[![Build Status](https://dev.azure.com/kineticskunkITS/Project1/_apis/build/status/bongadub.Rest-Assured?branchName=master)](https://dev.azure.com/kineticskunkITS/Project1/_build/latest?definitionId=1&branchName=master)
 
 Make sure docker is installed in the server, before running maven test.
 Use below commands for installing Docker in Ubuntu server.
